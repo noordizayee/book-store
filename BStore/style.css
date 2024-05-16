@@ -1,0 +1,731 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    background-size: cover;
+}
+
+section nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 10px rgb(5, 149, 197);
+    background: #fff;
+    left: 0;
+    z-index: 100;
+}
+
+section nav .logo img{
+    width: 100px;
+    cursor: pointer;
+    margin: 8px 0;
+}
+
+section nav ul{
+    font-size: 25px;
+    list-style: none;
+}
+
+section nav li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+section nav li a{
+    color: #000;
+    text-decoration: none;
+}
+
+section nav li a:hover{
+    color: rgb(5, 149, 197);
+}
+
+section .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 10%;
+}
+
+/*---social icon-------*/
+
+.social-icon i{
+    margin: 0 6px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.social-icon i:hover{
+    color: rgb(5, 149, 197);
+    transform: scale(1.1);
+}
+
+section .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 10%;
+}
+
+section .main h1{
+    position: relative;
+    font-size: 57px;
+    top: 80px;
+    text-align: center;
+}
+
+section .main h1 span{
+    color: rgb(5, 149, 197);
+}
+
+section .main p{
+    width: 650px;
+    text-align: justify;
+    line-height: 22px;
+    position: relative;
+    top: 125px;
+    left: 25px;
+}
+
+section .main .main-tag .main-btn{
+    background: rgb(5, 149, 197);
+    padding: 10px 20px;
+    position: relative;
+    top: 200px;
+    left: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section .main img{
+    width: 740px;
+    position: relative;
+    top: 90px;
+    left: 20px;
+}
+
+/*------- services -----*/
+.sevices{
+    width: 100%;
+    height: auto;
+    margin: 35px 0;
+}
+
+.sevices .services-box{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sevices .services-box .services-card{
+    text-align: center;
+    width: 310px;
+    height: auto;
+    box-shadow: 0px 0px 8px rgb(5, 149, 197);
+    padding: 15px 10px;
+}
+
+.sevices .services-box .services-card  i{
+    color: blue;
+    font-size: 45px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.sevices .services-box .services-card h3{
+    margin-bottom: 10px;
+}
+
+/*---- about -------*/
+.about{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 10px 30px 10px 30px;
+}
+
+.about .about-image img{
+    width: 700px;
+    padding: 10px 30px 10px 30px;
+    margin-top: 50px;
+}
+
+.about .about-tag p{
+    line-height: 22px;
+    width: 650px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.about .about-tag .about-btn{
+    padding: 12px 22px;
+    background: rgb(5, 149, 197);
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    top: 30px;
+    left: 270px;
+}
+
+.about .about-tag h1{
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Franklin Gothic Medium';
+    padding: 22px;
+}
+/*------featured-books------*/
+
+.featured-books{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+}
+
+.featured-books h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+
+.featured-books .featured-book-box{
+    width: 95%;
+    height: 60vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    overflow: hidden;
+    overflow-x: scroll;
+}   
+
+.featured-books .featured-book-box .featured-book-card{
+    width: 250px;
+    height: 420px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #919191;
+    margin: auto 20px;
+}
+
+.featured-books .featured-book-box .featured-book-card:hover{
+    box-shadow: 0 0 5px rgb(5, 149, 197);
+}
+
+
+.featured-books .featured-book-box .featured-book-card .featured-book-img img{
+    width: 150px;
+    height: 230px;
+}
+
+.featured-books .featured-book-box .featured-book-card .featured-book-tag h2{
+    margin: 12px;
+}
+
+.featured-books .featured-book-box .featured-book-card .featured-book-tag .writer{
+    color: #919191;
+}
+
+.featured-books .featured-book-box .featured-book-card .featured-book-tag .categories{
+    color:rgb(5, 149, 197);
+    margin-top: 8px;
+}
+
+.featured-books .featured-book-box .featured-book-card .featured-book-tag .book-price{
+    margin-top: 8px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.featured-books .featured-book-box .featured-book-card .featured-book-tag del{
+    font-weight: 100;
+    padding: 0 15px;
+}
+
+.featured-books .featured-book-box .featured-book-card .featured-book-tag .f-btn{
+    padding: 8px 20px;
+    border: 2px solid rgb(5, 149, 197);
+    text-decoration:none ;
+    color: #000;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 15px;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 8px rgb(5, 149, 197);
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(5, 149, 197);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-button{
+    background-color: blue;
+    background-size: 10px 10px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-button:hover{
+    background-color: #3b09dd;
+}
+
+::-webkit-scrollbar-track-piece{
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    border: 1px solid blue;
+}
+
+/*---------arrivals--------*/
+
+.arrivals{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 35px;
+}
+
+.arrivals h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.arrivals .arrivals-box{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 25px 0;
+}
+
+.arrivals .arrivals-box .arrivals-card{
+    width: 250px;
+    height: 340px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #919191;
+    margin: auto 20px;
+}
+
+.arrivals .arrivals-box .arrivals-card:hover{
+    box-shadow: 0 0 5px  rgb(5, 149, 197);
+}
+
+.arrivals .arrivals-box .arrivals-image{
+    width: 150px;
+    height: 220px;
+    margin: 0 auto;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+.arrivals .arrivals-box .arrivals-image img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   object-position: center;
+   transition:0.3s;
+}
+
+.arrivals .arrivals-box .arrivals-card:hover .arrivals-image img{
+    transform: scale(1.1);
+}
+
+.arrivals .arrivals-box .arrivals-card .arrivals-tag p{
+    font-size: 20px;
+    margin: 8px 0;
+}
+
+.arrivals .arrivals-box .arrivals-card .arrivals-tag .arrivals-icon{
+    color:  rgb(5, 149, 197);
+    margin-bottom: 18px;
+}
+
+.arrivals .arrivals-box .arrivals-card .arrivals-tag .arrivals_btn{
+    padding: 8px 20px;
+    border: 2px solid  rgb(5, 149, 197);
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+}
+
+/*-----reviews -------*/
+
+.reviews{
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+}
+
+.reviews h1{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 55px;
+}
+
+.reviews .review-box{
+    width: 100%;
+    height: 50vh;
+    margin: 25px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews .review-box .review-card{
+    width: 400px;
+    height: 320px;
+    box-shadow: 0 0 8px rgb(5, 149, 197);
+    padding: 15px;
+    margin: 0 12px;
+}
+
+.reviews .review-box .review-card i{
+    float: right;
+    font-size: 120px;
+    position: relative;
+    bottom: 20px;
+    color: #eaeaea;
+}
+
+.reviews .review-box .review-card .card-top img{
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.reviews .review-box .review-card .card .review-icon i{
+    font-size: 16px;
+    float: left;
+    margin-top: 20px;
+    color: rgb(5, 149, 197);
+    padding: 0 2px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    align-items: center;
+  }
+
+
+ .button1 {
+    background-color: #04AA6D;
+
+}
+
+/*----banner--*/
+
+.banner{
+    width: 100%;
+    height: 50vh;
+    background-image: url(https://floridapolitics.com/wp-content/uploads/2020/06/digital-textbooks-4000x2918.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner .banner_btn{
+    padding: 8px 20px;
+    background: rgb(5, 149, 197);
+    color: #fff;
+    position: relative;
+    top: 70%;
+    left: 7%;
+    text-decoration: none;
+}
+
+/*------blog-------*/
+.blog{
+    width: 100%;
+    height: auto;
+    margin: 25px 0;
+}
+
+.blog h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.blog .blog-box{
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.blog .blog-box .blog-card{
+    margin: 0 auto;
+    width: 450px;
+    height: auto;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+
+.blog .blog-box .blog-card .blog-img{
+    width: 450px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.blog .blog-box .blog-card .blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.blog .blog-box .blog-card .blog-tag{
+    padding: 20px;
+}
+
+.blog .blog-box .blog-card .blog-tag h2{
+    color: rgb(5, 149, 197);
+}
+
+.blog .blog-box .blog-card .blog-tag p{
+    margin-top: 10px;
+    text-align: justify;
+    line-height: 22px;
+}
+
+.blog .blog-box .blog-card .blog-tag .blog-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(5, 149, 197);
+    cursor: pointer;
+}
+
+/*-----footer --------*/
+footer{
+    width: 100%;
+    background: #eaeaea;
+}
+
+footer .footer-main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .footer-main .tag{
+    margin: 10px 0;
+}
+
+footer .footer-main .tag img{
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+footer .footer-main .tag p{
+    width: 250px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+footer .footer-main .tag h1{
+    font-size: 25px;
+    margin: 25px 0;
+    color: #000;
+}
+
+footer .footer-main .tag a{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+footer .footer-main .tag i{
+    margin-right: 10px;
+}
+
+footer .footer-main .tag .social-link i{
+    margin: 0 5px;
+}
+
+footer .footer-main .tag .search-bar{
+    width: 230px;
+    height: 30px;
+    background: rgb(202,202,202);
+    border-radius: 25px;
+}
+
+footer .footer-main .tag .search-bar input{
+    width: 200px;
+    padding: 2px 0;
+    position: relative;
+    top: 17%;
+    left: 6%;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    background: none;
+}
+
+footer .footer-main .tag .search-bar button{
+    padding: 7px 15px;
+    background: rgb(5, 149, 197);
+    border: none;
+    margin-top: 15px;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer .end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color: #000;
+}
+
+footer .end span{
+    color: blue;
+    font-weight: 600;
+}
+/*---------author--------*/
+.author .author-image img{
+    width:200px;
+    height: 200px;
+}
+
+.author .author-tag h1{
+font-size: 32px;
+color: rgb(51, 138, 226);
+padding: 2%;
+}
+
+.author .author-tag p{
+    font-size: 22px;
+    font-family: Georgia;
+}
+
+.author .author-tag h2{
+font-size: 32px;
+color: rgb(51, 138, 226);
+padding: 1%;
+}
+
+.author .author-tag ol{
+    font-size: 22px;
+    font-family: Georgia;
+    margin: 2%;
+}
+
+/*---------author1--------*/
+.author1 .author1-image img{
+    width:200px;
+    height: 200px;
+}
+
+.author1 .author1-tag h1{
+font-size: 32px;
+color: rgb(51, 138, 226);
+padding: 2%;
+}
+
+.author1 .author1-tag p{
+    font-size: 22px;
+    font-family: Georgia;
+}
+
+.author1 .author1-tag h2{
+font-size: 32px;
+color: rgb(51, 138, 226);
+padding: 1%;
+}
+
+.author1 .author1-tag ol{
+    font-size: 22px;
+    font-family: Georgia;
+    margin: 2%;
+}
+
+/*---------author1--------*/
+.author2 .author2-image img{
+    width:200px;
+    height: 200px;
+}
+
+.author2 .author2-tag h1{
+font-size: 32px;
+color: rgb(51, 138, 226);
+padding: 2%;
+}
+
+.author2 .author2-tag p{
+    font-size: 22px;
+    font-family: Georgia;
+}
+
+.author2 .author2-tag h2{
+font-size: 32px;
+color: rgb(51, 138, 226);
+padding: 1%;
+}
+
+.author2 .author2-tag ol{
+    font-size: 22px;
+    font-family: Georgia;
+    margin: 2%;
+}
+
+/*---------author3--------*/
+.author3 .author3-image img{
+    width:200px;
+    height: 200px;
+}
+
+.author3 .author3-tag h1{
+font-size: 32px;
+color: rgb(51, 138, 226);
+padding: 2%;
+}
+
+.author3 .author3-tag p{
+    font-size: 22px;
+    font-family: Georgia;
+}
+
+.author3 .author3-tag h2{
+font-size: 32px;
+color: rgb(51, 138, 226);
+padding: 1%;
+}
+
+.author3 .author3-tag ol{
+    font-size: 22px;
+    font-family: Georgia;
+    margin: 2%;
+}
